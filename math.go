@@ -17,4 +17,5 @@ func sub(a int, b int) int {
 
 func times(a int, b int) int {
 	return a * b
+
 }
