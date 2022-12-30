@@ -19,7 +19,7 @@ func TestSub(t *testing.T) {
 }
 
 func TestTimes(t *testing.T) {
-	total := sub(2, 5)
+	total := times(2, 5)
 
 	if total != 10 {
 		t.Errorf("Resultado inválido: Resultado: %d. Esperado:  %d", total, 5)
