@@ -17,3 +17,11 @@ func TestSub(t *testing.T) {
 		t.Errorf("Resultado inválido: Resultado: %d. Esperado:  %d", total, 5)
 	}
 }
+
+func TestTimes(t *testing.T) {
+	total := sub(2, 5)
+
+	if total != 10 {
+		t.Errorf("Resultado inválido: Resultado: %d. Esperado:  %d", total, 5)
+	}
+}

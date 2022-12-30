@@ -26,7 +26,3 @@ func SomaA(a int, b int) int {
 func SomaB(a int, b int) int {
 	return a + b + b
 }
-
-func SomaC(a int, b int) int {
-	return a + b + b
-}
